@@ -1,0 +1,131 @@
+:root {
+  --primaria: #006d41;
+  --secundaria: #e6e1de;
+  --terciaria: #f0f1ec;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html, body{
+  font-family: 'Inter', sans-serif;
+  background-image: url("./assets/background.png");
+  background-repeat: repeat;
+}
+
+.geral{
+  display: flex;
+  flex-direction: row;
+}
+
+.direita {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--secundaria);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.container{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo{
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.container form .inputContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container form .inputContainer label {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.container form .inputContainer input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 520px;
+  height: 30px;
+  border: 1px solid var(--secundaria);
+  margin-bottom: 30px;
+}
+
+.container form a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: var(--primaria);
+}
+
+.container form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 520px;
+  height: 48px;
+  background: var(--primaria);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container form .button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container form .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container form .footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.container form .footer a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primaria);
+  text-decoration: underline;
+}
