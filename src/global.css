@@ -31,6 +31,7 @@ html, body{
   background-color: var(--secundaria);
   margin: 10px;
   border-radius: 10px;
+  margin-right: 10px;
 }
 
 .container{
@@ -60,6 +61,7 @@ html, body{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  color: #444744;
 }
 
 .container form .inputContainer label {
@@ -67,6 +69,7 @@ html, body{
   font-size: 1rem;
   line-height: 19px;
   margin-bottom: 8px;
+  color: #444744;
 }
 
 .container form .inputContainer input {
