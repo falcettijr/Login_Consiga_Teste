@@ -1,4 +1,3 @@
-import logo from "./assets/logo.png";
 
 function App() {
   return (
@@ -33,7 +32,6 @@ function App() {
           </form>
         </div>
         <div className="direita"> 
-        
         </div>
       </div>
     </>
