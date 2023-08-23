@@ -33,7 +33,7 @@ function App() {
           </form>
         </div>
         <div className="direita"> 
-        <img className="logo.png" src={logo} alt="" />
+        
         </div>
       </div>
     </>
